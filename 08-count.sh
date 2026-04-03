@@ -15,3 +15,10 @@ done
 
 # exercise: Loop over some type of files and use the 
 # "grep" UNIX command to find snippets of strings in them.
+echo "Counting finished!"
+
+# New feature: count backwards
+for i in {10..1}
+do
+    echo "Backward: $i"
+done
